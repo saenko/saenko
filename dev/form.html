@@ -3,14 +3,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Index</title>
-<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+<!-- <link rel="stylesheet" type="text/css" href="styles/reset.css" /> --> 
+<!-- <link rel="stylesheet" type="text/css" href="styles/normalize.css" /> -->
+<link rel="stylesheet" type="text/css" href="styles/styles.css" /> 
 </head>
 
 <body>
 <div class="wrapper">
 	<div class="header"></div>
     <div class="content">
-    	<form action="#" method="GET" name="Form" id="Form">
+    	<form action="index.html" method="POST" name="Form" id="Form">
     		<fieldset>
     			<legend>Коротко о себе</legend>
     			<ul>
@@ -24,8 +26,8 @@
     				</li>
     				<li>
     					Пол: 
-    					<input type="radio" name="sex" id="Male" value="Male"><label for="Male">Мужской</label>
-    					<input type="radio" name="sex" id="Female" value="Female"><label for="Female">Женский</label>
+    					<input type="radio" name="sex" id="Male" value="Male" /><label for="Male">Мужской</label>
+    					<input type="radio" name="sex" id="Female" value="Female" /><label for="Female">Женский</label>
     				</li>
     				<li>
     					<label for="Age">Возраст:</label>
@@ -181,6 +183,7 @@
     			</ul>
     		</fieldset>
     		<input type="submit" name="submit" value="Отправить">
+            <input type="reset" value="Reset Form" />
     		<button onClick="document.forms.Form.submit();">Отправить</button>
     	</form>
     </div>
