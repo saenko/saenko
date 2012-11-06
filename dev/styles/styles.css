@@ -1,0 +1,8 @@
+ul,
+ul li
+{
+	padding: 0px 0px 15px 0px;
+	margin: 0;
+	list-style: none;
+}
+input[type='text'] { width: 250px; margin-right: 10px; }

@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Index</title>
+<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="header"></div>
+    <div class="content">
+    	<form action="#" method="GET" name="Form" id="Form">
+    		<fieldset>
+    			<legend>Коротко о себе</legend>
+    			<ul>
+    				<li>
+    					<label for="FirstName">Имя:</label>
+    					<input type="text" name="FirstName" id="FirstName" />
+    				</li>
+    				<li>
+    					<label for="LastName">Фамилия:</label>
+    					<input type="text" name="LastName" id="LastName" />
+    				</li>
+    				<li>
+    					Пол: 
+    					<input type="radio" name="sex" id="Male" value="Male"><label for="Male">Мужской</label>
+    					<input type="radio" name="sex" id="Female" value="Female"><label for="Female">Женский</label>
+    				</li>
+    				<li>
+    					<label for="Age">Возраст:</label>
+    					<input type="text" name="Age" id="Age"> лет
+    				</li>
+    			</ul>
+    		</fieldset>
+    		<fieldset>
+    			<legend>Подробнее о себе</legend>
+    			<ul>
+    				<li>
+    					<ul>
+		    				<li>
+		    					<input type="radio" name="Sex-1" id="Male-1"><label for="Male-1">Молодой человек</label>
+		    				</li>
+		    				<li>
+		    					<input type="radio" name="Sex-1" id="Female-1"><label for="Female-1">Девушка</label>
+		    				</li>
+	    				</ul>
+    				</li>
+    				<li>
+    					<ul>
+		    				<li>
+		    					<input type="text" name="Birthdate" id="Birthdate"><label for="Birthdate">Дата рождения</label>
+		    				</li>
+		    				<li>
+		    					<input type="text" name="MaritalStatus" id="MaritalStatus"><label for="MaritalStatus">Семейное положение</label>
+		    				</li>
+		    				<li>
+		    					<input type="text" name="SocialStatus" id="SocialStatus"><label for="SocialStatus">Социальный статус</label>
+		    				</li>
+		    				<li>
+		    					<input type="text" name="Residence" id="Residence"><label for="Residence">Местожительства</label>
+		    				</li>
+	    				</ul>
+    				</li>
+    				<li>
+    					<strong>Что вы обысно делаете на выходных:</strong>
+    				</li>
+    				<li>
+    					<ul>
+    						<li>
+    							<input type="checkbox" name="Sleep" id="Sleep"><label for="Sleep">Сплю</label>
+    						</li>
+    						<li>
+    							<input type="checkbox" name="SpentTimeWithFiends" id="Friends"><label for="Friends">Гуляю с друзьями</label>
+    						</li>
+    						<li>
+    							<input type="checkbox" name="Fishing" id="Fishing"><label for="Fishing">Хожу на рыбалку</label>
+    						</li>
+    						<li>
+    							<input type="checkbox" name="PlayGames" id="PlayGames"><label for="PlayGames">Играю в игры</label>
+    						</li>
+    					</ul>
+    				</li>
+    				<li>
+    					<strong>Paccказать о формах в книге, посвященной HTML</strong>
+    				</li>
+    				<li>
+    					<select>
+    						<option>Site freuency</option>
+    						<option>Option 2</option>
+    						<option>Option 3</option>
+    					</select>
+    				</li>
+    				<li>
+    					<strong>Сколько книг вы прочитали за свою жизнь:</strong>
+    				</li>
+    				<li>
+    					<ul>
+    						<li>
+    							<input type="radio" name="Books" id="LessThan10"><label for="LessThan10">0-10</label>
+    						</li>
+    						<li>
+    							<input type="radio" name="Books" id="LessThan20"><label for="LessThan20">11-20</label>
+    						</li>
+	    					<li>
+    							<input type="radio" name="Books" id="LessThan50"><label for="LessThan50">21-50</label>
+    						</li>
+	    					<li>
+    							<input type="radio" name="Books" id="MoreThan50"><label for="MoreThan50">50+</label>
+    						</li>
+    					</ul>
+    				</li>
+    				<li>
+    					<label for="Comments"><strong>Ваши комментарии:</strong></label><br />
+    					<textarea name="Comments" id="Comments" rows="10" cols="60"></textarea>
+    				</li>
+    				<li>
+    					<select size="3">
+    						<option>Option 1</option>
+    						<option>Option 2</option>
+    						<option>Option 3</option>
+    						<option>Option 4</option>
+    						<option>Option 5</option>
+    						<option>Option 6</option>
+    					</select>
+    				</li>
+    			</ul>
+    		</fieldset>
+    		<fieldset>
+    			<legend>И в заключении</legend>
+    			<ul>
+    				<li>
+		    			<input type="text" value="Это поле было введено до вас" disabled="disabled" name="FilledField" id="FilledField">
+    				</li>
+    				<li>
+    					<label for="Email"><strong>Email</strong></label><br />
+    					<input 
+    						type="text" 
+    						name="Email" 
+    						id="Email" 
+    						value="Email"
+    						onClick="if( this.value == 'Email' ) { this.value = '' }"
+    						onFocus="if( this.value == 'Email' ) { this.value = '' }"
+    						onBlur="if( this.value == '' ) { this.value = 'Email' }"
+
+    					>
+    				</li>
+    				<li>
+    					<strong>Хотите подписатся на самую модную рассылку спама?</strong><br />
+    					<i>Выберите категории</i>
+    				</li>
+    				<li>
+    					<ul>
+    						<li>
+    							<input type="checkbox" name="Equipment" id="Equipment"><label for="Equipment">Оборудование</label>
+    						</li>
+    						<li>
+    							<input type="checkbox" name="HowMakeDinner" id="HowMakeDinner"><label for="HowMakeDinner">Как приготовить обеды</label>
+    						</li>
+    						<li>
+								<input type="checkbox" name="MakeMoreMoney" id="MakeMoreMoney"><label for="MakeMoreMoney">Заработай миллион за два дня!</label>
+    						</li>
+    					</ul>
+    				</li>
+    				<li>
+						<strong>Насколько сложная задача:</strong>
+					</li>
+    				<li>
+    					<ul>
+							<li>
+								<input type="radio" name="TaskDificult" id="Easy"><label for="Easy">Совсем нет</label>
+							</li>
+							<li>
+								<input type="radio" name="TaskDificult" id="Medium"><label for="Medium">Так себе</label>
+							</li>
+							<li>
+								<input type="radio" name="TaskDificult" id="Hard"><label for="Hard">Еле справились</label>
+							</li>
+    					</ul>
+    				</li>
+    			</ul>
+    		</fieldset>
+    		<input type="submit" name="submit" value="Отправить">
+    		<button onClick="document.forms.Form.submit();">Отправить</button>
+    	</form>
+    </div>
+    <div class="footer"></div>
+</div>
+</body>
+</html>
