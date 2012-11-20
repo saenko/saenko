@@ -1,0 +1,40 @@
+h1{
+	background-color: black;
+	color: white;
+}
+
+a{
+	color: red;
+}
+
+div.grey-green {
+	background-color: gray;
+	border: 2px solid green;
+	padding: 10px;
+	text-align: right;
+}
+
+div.green-yellow {
+	background-color: green;
+	color: yellow;
+	border-top: 1px dashed yellow;
+	border-bottom: 1px dashed yellow;
+	border-left: none;
+	border-right: none;
+	padding: 10px;
+	margin: 10px 30% 10px 30%;
+}
+
+ul.square {
+	list-style-type: square;
+}
+
+ul.circle {
+	list-style-type: circle;
+}
+
+span.yellow-black{
+	background-color: black;
+	color: yellow;
+	font-size: 18px;
+}
