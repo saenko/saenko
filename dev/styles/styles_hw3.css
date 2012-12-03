@@ -23,6 +23,7 @@ div.green-yellow {
 	border-right: none;
 	padding: 10px;
 	margin: 10px 30% 10px 30%;
+	/*margin: 0 auto; --- выравняет по центру*/
 }
 
 ul.square {
