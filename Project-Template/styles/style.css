@@ -3,9 +3,10 @@ ul
 {
 	display: block;
 	border-bottom: 1px solid #ccc;
-	width: 100%;
+	width: 40%;
 	height: 32px;
 	padding-left: 60%;
+	padding-top: 10%;
 }
 
 ul li 
@@ -16,8 +17,9 @@ ul li
 	height: 31px;
 	background-color: #eee;
 	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 31px;
 }
-
 ul li:first-child
 {
 	border-top-left-radius: 15px;
@@ -52,3 +54,4 @@ ul li a
 	color: #ccc;
 	text-align: center;
 }
+
